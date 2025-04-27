@@ -86,7 +86,7 @@ st.header("", divider="rainbow")  # Empty header for spacing
 
 col1, col2 = st.columns([1, 3], gap="large")
 with col1:
-    profile_img = create_perfect_circle("profile_picture.jpg")
+    profile_img = create_perfect_circle("profile-photo.png")
     st.image(profile_img, width=250)
 
 with col2:
@@ -165,7 +165,7 @@ with st.expander("🔍 Project 1: BMI Calculator", expanded=True):
         - Automated reporting
         """)
         st.link_button("View on GitHub", "https://github.com/shahzainfarooqi/BMI-calculator")
-        st.link_button("View on Streamlit","")
+        st.link_button("View on Streamlit","https://shahzainfarooqi-bmi-calculator-cal-74t5so.streamlit.app/git")
 
 # Project 2
 with st.expander("📊 Project 2: Cooldown Timer"):
@@ -186,8 +186,8 @@ with st.expander("📊 Project 2: Cooldown Timer"):
         - Custom dashboard creation
         - Team collaboration tools
         """)
-        st.link_button("View code on Github", "https://github.com/shahzainfarooqi/Cooldown-timer")
-        st.link_button("View on Streamlit","")
+        st.link_button("View code on Github", "https://github.com/shahzainfarooqi/cool-down-timer/tree/main")
+        st.link_button("View on Streamlit","https://cool-down-timer-cipwomplf4thh5ttu9xw3t.streamlit.app/git")
 
 # ============================================
 # CONTACT SECTION WITH EMAIL FUNCTIONALITY
